@@ -1,0 +1,75 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="button">@drawable/button</item>
+        <item name="backdesign">@drawable/backdesign</item>
+        <item name="btnnotedesign">@drawable/btnnotedesign</item>
+        <item name="editdesign">@drawable/editdesign</item>
+        <item name="toolbardesign">@drawable/toolbardesign</item>
+        <item name="dialogtoolbar">@drawable/toolbardesign</item>
+        <item name="hintColortex">#a9a8a8</item>
+        <item name="clockbuttontext">@color/colorAccent</item>
+       
+        <item name="setingtexrColor">@color/setingtexrColor</item>
+        <item name="flotingbuttoncolor">@color/colorPrimaryDark</item>
+        <item name="backgroundcolor">#f4f3f3</item>
+        <item name="recycalbackground">@color/white</item>
+        <item name="textcolor">#808080</item>
+        <item name="titleTexcolor">#d8121111</item>
+        <item name="noteTextColor">#545252</item>
+        <item name="datetextcolor">#48077e</item>
+        <item name="tintcolor">#000000</item>
+        <item name="linecolor">@color/colorAccent</item>
+        <item name="usershowtextcolor">#ec464c58</item>
+        <item name="textcolorinsidebutton">#e5ebff</item>
+        <item name="dialogbarcolor">@color/dialogbarcolor</item>
+        <item name="buttonbackgroundColor">@drawable/btnnotedesign</item>
+        <item name="clockheader">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="darktheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#c2858594</item>
+        <item name="button">@drawable/button</item>
+        <item name="backdesign">#303030</item>
+        <item name="btnnotedesign">@drawable/btnnotedesign</item>
+        <item name="editdesign">@drawable/editdesign</item>
+        <item name="toolbardesign">#212121</item>
+        <item name="dialogtoolbar">#212121</item>
+
+        <item name="flotingbuttoncolor">#067ede</item>
+        <item name="setingtexrColor">#acb7c4</item>
+        <item name="backgroundcolor">#303030</item>
+        <item name="recycalbackground">#424242</item>
+        <item name="textcolor">#ffffff</item>
+        <item name="titleTexcolor">#ffffff</item>
+        <item name="noteTextColor">#d9d6d6</item>
+        <item name="datetextcolor">#3c739f</item>
+        <item name="tintcolor">#ffffff</item>
+        <item name="linecolor">#536e76</item>
+        <item name="hintColortex">#868585</item>
+        <item name="clockheader">@color/black</item>
+        <item name="clockbuttontext">#ffffff</item>
+
+        <item name="usershowtextcolor">#c1c3c7</item>
+        <item name="textcolorinsidebutton">#d9d8d8</item>
+        <item name="dialogbarcolor">@color/dialogbarcolor</item>
+        <item name="buttonbackgroundColor">#fb505354</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+
+
+    </style>
+
+
+</resources>

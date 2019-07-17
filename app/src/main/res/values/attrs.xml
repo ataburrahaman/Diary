@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ds">
+
+        <attr name="button" format="color"/>
+        <attr name="backdesign" format="color"/>
+        <attr name="btnnotedesign" format="color"/>
+        <attr name="editdesign" format="color"/>
+        <attr name="toolbardesign" format="color"/>
+        <attr name="dialogtoolbar" format="color"/>
+
+        <attr name="flotingbuttoncolor" format="color"/>
+        <attr name="linecolor" format="color"/>
+        <attr name="setingtexrColor" format="color"/>
+        <attr name="backgroundcolor" format="color"/>
+        <attr name="recycalbackground" format="color"/>
+        <attr name="textcolor" format="color"/>
+        <attr name="noteTextColor" format="color"/>
+        <attr name="hintColortex" format="color"/>
+        <attr name="tintcolor" format="color"/>
+        <attr name="datetextcolor" format="color"/>
+        <attr name="usershowtextcolor" format="color"/>
+        <attr name="textcolorinsidebutton" format="color"/>
+        <attr name="titleTexcolor" format="color"/>
+        <attr name="buttonbackgroundColor" format="color"/>
+        <attr name="dialogbarcolor" format="color"/>
+        <attr name="clockheader" format="color"/>
+        <attr name="clockbuttontext" format="color"/>
+        
+    </declare-styleable>
+
+</resources>

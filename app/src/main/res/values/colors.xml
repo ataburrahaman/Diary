@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#005983</color>
+    <color name="colorAccent">#07283b</color>
+    <color name="white">#ffff</color>
+    <color name="borderColor">#8e8c8c</color>
+    <color name="hintColor">#93bec7</color>
+    <color name="recilartext">#0d28a3</color>
+    <color name="black">#000000</color>
+    <color name="setingtexrColor">#800940</color>
+    <color name="dialogbarcolor">#138e88</color>
+    <color name="texcolor">#383838</color>
+</resources>

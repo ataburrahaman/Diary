@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardElevation="8dp"
+    android:id="@+id/cardViewlode"
+    android:elevation="6dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    >
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="?attr/recycalbackground"
+        android:baselineAligned="false">
+
+        <RelativeLayout
+            android:id="@+id/animationDate"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_9_septombar"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:id="@+id/editdate"
+                android:textColor="?attr/datetextcolor"
+                android:padding="12dp"
+                />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="3.2"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:id="@+id/edittitle"
+                android:maxLines="1"
+                android:textColor="?attr/textcolor"
+                android:textStyle="bold"
+                android:padding="6dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edittitle"
+                android:id="@+id/editnote"
+                android:padding="6dp"
+                android:text="@string/note"
+                android:maxLines="6"
+                android:textStyle="italic"
+                android:textColor="?attr/noteTextColor"
+                android:textAppearance="?android:textAppearanceSmall"
+                />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

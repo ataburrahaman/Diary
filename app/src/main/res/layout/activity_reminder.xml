@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundcolor"
+    tools:context=".ReminderActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+    <include  android:id="@+id/toolbar_setting"
+        layout="@layout/toolbar"
+        />
+    <EditText
+        android:id="@+id/editTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Task"
+        android:padding="10dp"
+        android:textColorHint="?attr/hintColortex"
+        android:textColor="?attr/textcolor"
+        android:layout_marginBottom="10dp"
+        />
+    <TimePicker
+        android:id="@+id/timeSet"
+        android:layout_width="300dp"
+        android:layout_height="342dp"
+        android:amPmTextColor="?attr/textcolor"
+        android:headerBackground="?attr/clockheader"
+        android:numbersSelectorColor="?attr/clockheader"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="right"
+        android:layout_marginTop="30dp"
+        >
+
+        <TextView
+            android:id="@+id/cancleButton"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Cancle"
+            android:gravity="center"
+            android:textColor="?attr/clockbuttontext"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_marginRight="0dp"
+            />
+        <TextView
+            android:id="@+id/setButton"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="Set"
+            android:gravity="center"
+            android:textColor="?attr/clockbuttontext"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_marginRight="30dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

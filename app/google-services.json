@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "579390851219",
+    "firebase_url": "https://diary-world.firebaseio.com",
+    "project_id": "diary-world",
+    "storage_bucket": "diary-world.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579390851219:android:3021ff637853e8ad",
+        "android_client_info": {
+          "package_name": "com.dreamworld.smart.diary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579390851219-3ol9v28fqvhqckqp31tksaovkcgn0uuv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dreamworld.smart.diary",
+            "certificate_hash": "6b17065e54f126356391fe7dd25b6195a05fa3a9"
+          }
+        },
+        {
+          "client_id": "579390851219-fs5pqt31qc82vnn4042e6grkickag82i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMDplAuIndKn-ToRyl31DmAZ2p2CgV7oU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "579390851219-1089d5jqu45edd4a6pa3ddmgu2shhtvt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

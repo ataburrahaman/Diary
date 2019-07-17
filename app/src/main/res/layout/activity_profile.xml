@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundcolor"
+
+    tools:context=".ProfileActivity">
+    <include  android:id="@+id/toolbar_profile"
+        layout="@layout/toolbar"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/ic_person_outline"
+            android:layout_gravity="center"
+            android:id="@+id/profiilephotoimage"
+            app:civ_border_width="2dp"
+            app:civ_border_color="?attr/usershowtextcolor"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:id="@+id/edit_uname"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="?attr/textcolor"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/edit_uemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Email"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="?attr/textcolor" />
+        <TextView
+            android:id="@+id/edit_uid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="id"
+            android:textColor="#403f31"
+            android:visibility="gone"
+            android:textAppearance="?android:textAppearanceSmall" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/edit_ulogout"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="?attr/buttonbackgroundColor"
+        android:text="Log Out"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#ffff" />
+
+
+
+
+</RelativeLayout>

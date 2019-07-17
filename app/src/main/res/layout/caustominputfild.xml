@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/backgroundcolor"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="Add Your Story"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:gravity="center"
+                android:background="?attr/dialogtoolbar"
+                android:textColor="?attr/textcolorinsidebutton"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textColor="?attr/titleTexcolor"
+                        android:id="@+id/edit_title"
+                        android:hint="Title"
+                        android:textSize="25dp"
+                        android:textColorHint="?attr/hintColortex"
+                        />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textColor="?attr/noteTextColor"
+                        android:id="@+id/edit_note"
+                        android:hint="Note"
+                        android:textSize="18dp"
+                        android:minLines="6"
+                        android:gravity="top"
+                        android:textColorHint="?attr/hintColortex"
+                        />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="?attr/buttonbackgroundColor"
+                android:text="Save"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="?attr/textcolorinsidebutton"
+                android:id="@+id/save_btn"
+
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

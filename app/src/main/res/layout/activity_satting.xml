@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/backgroundcolor"
+    tools:context=".SattingActivity">
+    <include  android:id="@+id/toolbar_setting"
+        layout="@layout/toolbar"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="2.2"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="163dp"
+                android:layout_height="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="25dp"
+                android:text="Accunt"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="?attr/setingtexrColor" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_weight=".5">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/edit_profilepicture"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/ic_person_outline"
+                app:civ_border_width=".1dp"
+                app:civ_border_color="#FF000000"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/accountShow"
+            android:layout_width="9dp"
+            android:layout_weight="1.7"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/edit_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:text="Account"
+                android:textColor="?attr/textcolor"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </RelativeLayout>
+
+    </LinearLayout> <!-- For Account-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="10dp"
+        android:background="?attr/linecolor" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.7"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="25dp"
+                android:text="Night Mode"
+                android:textColor="?attr/setingtexrColor"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content">
+
+          <!--  <TextView
+                android:id="@+id/edit_font"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="font"
+                android:textAppearance="?android:textAppearanceMedium" /> -->
+
+            <Switch
+                android:id="@+id/edit_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout> <!-- For Account-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="10dp"
+        android:background="?attr/linecolor" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.7"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="25dp"
+                android:text="Font Size"
+                android:textColor="?attr/setingtexrColor"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/edit_fontsize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aa"
+                android:textColor="?attr/textcolor"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout> <!-- For Account-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="10dp"
+        android:background="?attr/linecolor" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.7"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="25dp"
+                android:text="Password"
+                android:textColor="?attr/setingtexrColor"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/edit_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="passord"
+                android:textColor="?attr/textcolor"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout> <!-- For Account-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="10dp"
+        android:background="?attr/linecolor" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.7"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/edit_reminder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="25dp"
+                android:text="Reminder Me"
+                android:textColor="?attr/setingtexrColor"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </RelativeLayout>
+      <!--  <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/edit_shareapp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="share app"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+
+        </RelativeLayout> -->
+
+    </LinearLayout> <!-- For Account-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="10dp"
+        android:background="?attr/linecolor" />
+    <LinearLayout
+        android:id="@+id/needhelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.7"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/edit_needhelp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="25dp"
+                android:text="Need Help?"
+                android:textColor="?attr/setingtexrColor"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content">
+
+          <!--  <TextView
+                android:id="@+id/edit_needhelp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="need help"
+                android:textAppearance="?android:textAppearanceMedium" />-->
+
+
+        </RelativeLayout>
+
+    </LinearLayout> <!-- For Account-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="10dp"
+        android:background="?attr/linecolor" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.7"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/edit_aboutus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="25dp"
+                android:text="About Us"
+                android:textColor="?attr/setingtexrColor"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content">
+
+            <!--
+            <TextView
+                android:id="@+id/edit_aboutus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="aboutus"
+                android:textAppearance="?android:textAppearanceMedium" />
+                -->
+
+
+        </RelativeLayout>
+
+    </LinearLayout> <!-- For Account-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="10dp"
+        android:background="?attr/linecolor" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.7"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/edit_logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="25dp"
+                android:text="Not Your Account? Log Out"
+                android:textColor="?attr/setingtexrColor"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </RelativeLayout>
+        <!--  <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/edit_aboutus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="aboutus"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+
+
+        </RelativeLayout> -->
+
+    </LinearLayout> <!-- For Account-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="10dp"
+        android:background="?attr/linecolor" />
+
+
+</LinearLayout>
